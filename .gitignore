@@ -1,0 +1,16 @@
+# Go
+/tmp/
+
+# Env files (contain local secrets/config; .env.example is tracked instead)
+.env
+frontend/.env
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Editor/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

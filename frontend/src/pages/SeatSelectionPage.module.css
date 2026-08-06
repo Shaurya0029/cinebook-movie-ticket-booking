@@ -1,0 +1,70 @@
+.header {
+  margin-bottom: 24px;
+}
+
+.movieTitle {
+  font-size: 24px;
+  font-weight: 800;
+  margin: 0 0 4px;
+}
+
+.showMeta {
+  color: var(--color-text-muted);
+  font-size: 14px;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 32px;
+  align-items: start;
+}
+
+@media (max-width: 800px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+.seatCard {
+  padding: 32px;
+  overflow-x: auto;
+}
+
+.summary {
+  position: sticky;
+  top: 90px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.selectedSeats {
+  padding: 16px 20px;
+  font-size: 14px;
+}
+
+.selectedLabel {
+  color: var(--color-text-muted);
+  margin-bottom: 6px;
+}
+
+.seatChips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.seatChip {
+  background: rgba(239, 59, 93, 0.16);
+  border: 1px solid var(--color-accent);
+  color: var(--color-text);
+  border-radius: 999px;
+  padding: 3px 10px;
+  font-size: 12px;
+  animation: popIn 0.2s ease both;
+}
+
+.proceedBtn {
+  width: 100%;
+}

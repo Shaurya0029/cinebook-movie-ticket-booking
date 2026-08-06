@@ -1,0 +1,43 @@
+.wrap {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 32px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 800;
+  margin: 0 0 6px;
+}
+
+.subtitle {
+  color: var(--color-text-muted);
+  font-size: 14px;
+  margin: 0 0 28px;
+}
+
+.row {
+  display: flex;
+  gap: 12px;
+}
+
+.row > * {
+  flex: 1;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: var(--color-text-muted);
+}
+
+.footer a {
+  color: var(--color-accent);
+  font-weight: 600;
+}
+
+.submit {
+  width: 100%;
+  margin-top: 8px;
+}

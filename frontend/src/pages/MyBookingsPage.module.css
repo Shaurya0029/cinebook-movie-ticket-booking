@@ -1,0 +1,74 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 8px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 18px 22px;
+  transition: border-color 0.15s ease, transform 0.12s ease;
+}
+
+.row:hover {
+  border-color: var(--color-accent);
+  transform: translateY(-1px);
+}
+
+.info {
+  flex: 1;
+  min-width: 0;
+}
+
+.movieTitle {
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.meta {
+  font-size: 13px;
+  color: var(--color-text-muted);
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 6px;
+}
+
+.amount {
+  font-weight: 700;
+}
+
+.statusBadge {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 999px;
+  text-transform: capitalize;
+}
+
+.statusBadge.confirmed {
+  background: rgba(53, 212, 136, 0.16);
+  color: var(--color-success);
+}
+
+.statusBadge.pending_payment {
+  background: rgba(255, 200, 87, 0.16);
+  color: var(--color-warning);
+}
+
+.statusBadge.cancelled {
+  background: rgba(255, 106, 92, 0.16);
+  color: var(--color-danger);
+}
+
+.empty {
+  padding: 60px 0;
+  text-align: center;
+  color: var(--color-text-muted);
+}

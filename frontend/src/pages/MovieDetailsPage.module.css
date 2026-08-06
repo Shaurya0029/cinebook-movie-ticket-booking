@@ -1,0 +1,132 @@
+.layout {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 32px;
+  margin-top: 8px;
+}
+
+@media (max-width: 720px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+.poster {
+  width: 100%;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin: 0 0 8px;
+}
+
+.metaRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.chip {
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  padding: 4px 12px;
+  font-size: 12px;
+  color: var(--color-text-muted);
+}
+
+.description {
+  color: var(--color-text-muted);
+  line-height: 1.6;
+  max-width: 640px;
+  margin-bottom: 28px;
+}
+
+.comingSoonNotice {
+  padding: 20px;
+  border-color: var(--color-accent);
+}
+
+.dateTabs {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  margin-bottom: 20px;
+}
+
+.dateTab {
+  padding: 10px 16px;
+  border-radius: var(--radius);
+  border: 1px solid var(--color-border);
+  background: var(--color-bg-card);
+  color: var(--color-text-muted);
+  cursor: pointer;
+  font-size: 13px;
+  white-space: nowrap;
+  transition: all 0.15s ease;
+}
+
+.dateTab.active {
+  border-color: var(--color-accent);
+  background: rgba(239, 59, 93, 0.14);
+  color: var(--color-text);
+}
+
+.theaterGroup {
+  padding: 20px;
+  margin-bottom: 16px;
+}
+
+.theaterHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 14px;
+}
+
+.theaterName {
+  font-weight: 700;
+}
+
+.cityTag {
+  font-size: 12px;
+  color: var(--color-text-muted);
+}
+
+.timeGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.timeSlot {
+  padding: 10px 16px;
+  border-radius: var(--radius);
+  border: 1px solid var(--color-border);
+  background: var(--color-bg-elevated);
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  transition: transform 0.12s ease, border-color 0.15s ease, background 0.15s ease;
+}
+
+.timeSlot:hover {
+  border-color: var(--color-accent);
+  background: rgba(239, 59, 93, 0.12);
+  transform: translateY(-2px);
+}
+
+.timePrice {
+  display: block;
+  font-weight: 400;
+  color: var(--color-text-muted);
+  font-size: 11px;
+  margin-top: 2px;
+}

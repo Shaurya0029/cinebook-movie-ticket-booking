@@ -1,0 +1,21 @@
+.rail {
+  display: flex;
+  gap: 18px;
+  overflow-x: auto;
+  padding-bottom: 8px;
+}
+
+.rail::-webkit-scrollbar {
+  height: 8px;
+}
+
+.rail::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 999px;
+}
+
+.empty {
+  color: var(--color-text-muted);
+  font-size: 14px;
+  padding: 24px 0;
+}

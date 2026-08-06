@@ -1,0 +1,146 @@
+.wrap {
+  max-width: 480px;
+  margin: 24px auto 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.statusBand {
+  padding: 36px 32px 24px;
+  text-align: center;
+}
+
+.statusBand.success {
+  background: linear-gradient(180deg, rgba(53, 212, 136, 0.16), transparent);
+}
+
+.statusBand.failed {
+  background: linear-gradient(180deg, rgba(255, 106, 92, 0.16), transparent);
+}
+
+.iconCircle {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 16px;
+  font-size: 30px;
+  animation: popIn 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+}
+
+.iconCircle.success {
+  background: rgba(53, 212, 136, 0.18);
+  color: var(--color-success);
+}
+
+.iconCircle.failed {
+  background: rgba(255, 106, 92, 0.18);
+  color: var(--color-danger);
+}
+
+.statusTitle {
+  font-size: 20px;
+  font-weight: 800;
+  margin: 0 0 4px;
+}
+
+.statusDesc {
+  color: var(--color-text-muted);
+  font-size: 13px;
+}
+
+.ticket {
+  padding: 28px 32px;
+  position: relative;
+}
+
+.ticket::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  border-top: 1px dashed var(--color-border);
+}
+
+.movieTitle {
+  font-size: 20px;
+  font-weight: 800;
+  margin: 0 0 16px;
+}
+
+.detailGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.detailItem {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.detailLabel {
+  font-size: 11px;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.detailValue {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.divider {
+  height: 1px;
+  background: var(--color-border);
+  margin: 16px 0;
+  border-top: 1px dashed var(--color-border);
+  background: none;
+}
+
+.amountRow {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  color: var(--color-text-muted);
+  margin-bottom: 6px;
+}
+
+.amountRow span:last-child {
+  color: var(--color-text);
+}
+
+.totalRow {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 800;
+  margin-top: 10px;
+}
+
+.totalRow span:last-child {
+  color: var(--color-accent);
+}
+
+.txnId {
+  font-size: 11px;
+  color: var(--color-text-muted);
+  margin-top: 20px;
+  text-align: center;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+  padding: 24px 32px 32px;
+}
+
+.actions > * {
+  flex: 1;
+}
