@@ -1,0 +1,191 @@
+.env.example
+  s_fa371e05b2a819::t_bc12e01bb96d4e 1-4
+cmd/seed/main.go
+  s_fa371e05b2a819::t_07e8365c8c3066 1-255
+frontend/.gitignore
+  s_fa371e05b2a819::t_e29aabd08fe333 1-24
+frontend/.oxlintrc.json
+  s_fa371e05b2a819::t_e58e9a3aff98e5 1-8
+frontend/README.md
+  s_fa371e05b2a819::t_05948f9ebcdfac 1-32
+frontend/package-lock.json
+  s_fa371e05b2a819::t_a57eec03a04899 1-1331
+frontend/package.json
+  s_fa371e05b2a819::t_7bfed00b0f8dd2 1-26
+frontend/public/favicon.svg
+  s_fa371e05b2a819::t_7fe165e20a2f74 1
+frontend/src/main.tsx
+  s_fa371e05b2a819::t_8da6bde2fd3066 1-10
+frontend/src/pages/MovieDetailsPage.module.css
+  s_fa371e05b2a819::t_a7b4ba8190804b 1-132
+frontend/src/pages/SeatSelectionPage.module.css
+  s_fa371e05b2a819::t_133aad135d793e 1-70
+frontend/tsconfig.app.json
+  s_fa371e05b2a819::t_447fdc54064099 1-26
+frontend/tsconfig.json
+  s_fa371e05b2a819::t_f70f3c6f8ad446 1-7
+frontend/tsconfig.node.json
+  s_fa371e05b2a819::t_7e1eb8ea1e1ce5 1-23
+frontend/vite.config.ts
+  s_fa371e05b2a819::t_b09797a7ef09f7 1-7
+go.mod
+  s_fa371e05b2a819::t_dee2dfac2989e5 1-17
+go.sum
+  s_fa371e05b2a819::t_a551aa9c78c92b 1-29
+internal/config/config.go
+  s_fa371e05b2a819::t_860611b8b74ff4 1-48
+internal/handlers/auth_handler.go
+  s_fa371e05b2a819::t_35f3bd2cb1ed79 1-131
+internal/handlers/health_handler.go
+  s_fa371e05b2a819::t_8976dc7854615a 1-11
+internal/handlers/location_handler.go
+  s_fa371e05b2a819::t_31d41e9037a821 1-107
+internal/handlers/movie_handler.go
+  s_fa371e05b2a819::t_f7e7c34be1c0b9 1-38
+internal/handlers/show_handler.go
+  s_fa371e05b2a819::t_366c20e27561ee 1-82
+internal/models/models.go
+  s_fa371e05b2a819::t_76e86bfbdd8e08 1-98
+.gitignore
+  s_fa371e05b2a819::t_47ac2a94b2c63a 1-16
+README.md
+  s_fa371e05b2a819::t_b4d9fe2af9c292 1-65
+cmd/api/main.go
+  s_fa371e05b2a819::t_ee88992680c693 1-48
+docker-compose.yml
+  s_fa371e05b2a819::t_0470d1ee4534ef 1-21
+frontend/.env.example
+  s_fa371e05b2a819::t_8aaf3842174dbd 1
+frontend/index.html
+  s_fa371e05b2a819::t_b299436d5a0396 1-13
+frontend/src/App.tsx
+  s_fa371e05b2a819::t_62ec3cf844fbf7 1-65
+frontend/src/api/auth.ts
+  s_fa371e05b2a819::t_7bc1ab69a97f8c 1-20
+frontend/src/api/bookings.ts
+  s_fa371e05b2a819::t_3eab92c703abb4 1-37
+frontend/src/api/cities.ts
+  s_fa371e05b2a819::t_98153c334bd001 1-14
+frontend/src/api/client.ts
+  s_fa371e05b2a819::t_7f04c73dd6a804 1-91
+frontend/src/api/movies.ts
+  s_fa371e05b2a819::t_ecd1a7a72151a5 1-11
+frontend/src/api/shows.ts
+  s_fa371e05b2a819::t_f161bf7ff34b91 1-25
+frontend/src/api/theaters.ts
+  s_fa371e05b2a819::t_30b6b56e2c2467 1-10
+frontend/src/components/MovieCard.module.css
+  s_fa371e05b2a819::t_bea91d715522a3 1-58
+frontend/src/components/MovieCard.tsx
+  s_fa371e05b2a819::t_9a3fb5fd9ab1f0 1-16
+frontend/src/components/MovieRail.module.css
+  s_fa371e05b2a819::t_d28ce59360dc92 1-21
+frontend/src/components/MovieRail.tsx
+  s_fa371e05b2a819::t_70f2f5b0347ad6 1-18
+frontend/src/components/Navbar.module.css
+  s_fa371e05b2a819::t_70e9683e82e932 1-114
+frontend/src/components/Navbar.tsx
+  s_fa371e05b2a819::t_ba937963f1772b 1-73
+frontend/src/components/PriceBreakdown.module.css
+  s_fa371e05b2a819::t_763575d33bca09 1-37
+frontend/src/components/PriceBreakdown.tsx
+  s_fa371e05b2a819::t_13cb0aa943ffcd 1-40
+frontend/src/components/RequireAuthRoute.tsx
+  s_fa371e05b2a819::t_62205a30b3bf61 1-22
+frontend/src/components/SeatMap.module.css
+  s_fa371e05b2a819::t_2f06ba1b858b28 1-105
+frontend/src/components/SeatMap.tsx
+  s_fa371e05b2a819::t_8b1cdf75b237d9 1-77
+frontend/src/context/AuthContext.tsx
+  s_fa371e05b2a819::t_4f1b5df0213499 1-61
+frontend/src/context/LocationContext.tsx
+  s_fa371e05b2a819::t_5143308c05933b 1-104
+frontend/src/index.css
+  s_fa371e05b2a819::t_ae4eaeb04e92cb 1-256
+frontend/src/pages/AuthForm.module.css
+  s_fa371e05b2a819::t_b29dfca18c6cb8 1-43
+frontend/src/pages/CityTheaterPickerPage.module.css
+  s_fa371e05b2a819::t_c73b5834ee93f9 1-82
+frontend/src/pages/CityTheaterPickerPage.tsx
+  s_fa371e05b2a819::t_fec6f66f727d84 1-101
+frontend/src/pages/HomePage.module.css
+  s_fa371e05b2a819::t_2bfca3004ba44e 1-68
+frontend/src/pages/HomePage.tsx
+  s_fa371e05b2a819::t_3d3551e5ca517f 1-79
+frontend/src/pages/LoginPage.tsx
+  s_fa371e05b2a819::t_d9df70f4f9f68e 1-66
+frontend/src/pages/MovieDetailsPage.tsx
+  s_fa371e05b2a819::t_945557a12aae6b 1-163
+frontend/src/pages/MyBookingsPage.module.css
+  s_fa371e05b2a819::t_c5500cb23ab8e0 1-74
+frontend/src/pages/MyBookingsPage.tsx
+  s_fa371e05b2a819::t_8d8c814263df11 1-72
+frontend/src/pages/PaymentPage.module.css
+  s_fa371e05b2a819::t_d8dab8405464a4 1-101
+frontend/src/pages/PaymentPage.tsx
+  s_fa371e05b2a819::t_ce9b431a3c9a93 1-169
+frontend/src/pages/ReceiptPage.module.css
+  s_fa371e05b2a819::t_1217c7f1c96b47 1-146
+frontend/src/pages/ReceiptPage.tsx
+  s_fa371e05b2a819::t_c4aa21745905c2 1-132
+frontend/src/pages/RegisterPage.tsx
+  s_fa371e05b2a819::t_47acbba2ffc5bb 1-77
+frontend/src/pages/SeatSelectionPage.tsx
+  s_fa371e05b2a819::t_75c18007746398 1-138
+frontend/src/types/index.ts
+  s_fa371e05b2a819::t_a761066e5eb6e5 1-109
+frontend/src/utils/format.ts
+  s_fa371e05b2a819::t_43f5fa74141461 1-24
+internal/auth/jwt.go
+  s_fa371e05b2a819::t_4cabda47ce278b 1-50
+internal/auth/middleware.go
+  s_fa371e05b2a819::t_5692987494ae1d 1-42
+internal/auth/password.go
+  s_fa371e05b2a819::t_480b497bb3e9d6 1-15
+internal/db/db.go
+  s_fa371e05b2a819::t_d14eb187ee190f 1-35
+internal/db/schema.sql
+  s_fa371e05b2a819::t_2de4390c9851ec 1-93
+internal/geo/haversine.go
+  s_fa371e05b2a819::t_4cc3a9926eec79 1-20
+internal/handlers/booking_handler.go
+  s_fa371e05b2a819::t_f1829e04a3770c 1-210
+internal/handlers/deps.go
+  s_fa371e05b2a819::t_6f5eba038faaf6 1-20
+internal/httpserver/router.go
+  s_fa371e05b2a819::t_bb1c2ccffa2fe1 1-66
+internal/httpx/response.go
+  s_fa371e05b2a819::t_ab0f0c25cb85d5 1-16
+internal/pricing/gst.go
+  s_fa371e05b2a819::t_72370707b91804 1-24
+internal/repository/booking_repo.go
+  s_fa371e05b2a819::t_e055e08ce93a00 1-205
+internal/repository/city_repo.go
+  s_fa371e05b2a819::t_5379ee12625398 1-45
+internal/repository/movie_repo.go
+  s_fa371e05b2a819::t_3d6fa3878a2795 1-56
+internal/repository/seat_repo.go
+  s_fa371e05b2a819::t_b1c6a435aebfad 1-75
+internal/repository/show_repo.go
+  s_fa371e05b2a819::t_7b9eafe9178116 1-86
+internal/repository/theater_repo.go
+  s_fa371e05b2a819::t_97071c8989a198 1-69
+internal/repository/user_repo.go
+  s_fa371e05b2a819::t_214774a518e11e 1-75
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "16ac654abb6cd44ba3461cfc896f9a12d72d2cc7",
+  "prompts": {},
+  "sessions": {
+    "s_fa371e05b2a819": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "6fc08550-c69b-492c-95e1-4979eba2fcdd",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Shaurya <shaurya@example.com>"
+    }
+  }
+}
